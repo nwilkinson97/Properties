@@ -2,12 +2,13 @@
 
 namespace Properties
 {
+    public class Person
+    {
+	   public DateTime BirthDate { get; set; }
+    }
+
     class Program
     {
-	   public class Person
-	   {
-		  public DateTime BirthDate { get; set; }
-	   }
 
 	   static void Main(string[] args)
 	   {

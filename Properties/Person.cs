@@ -4,7 +4,11 @@ namespace Properties
 {
     public class Person
     {
-	   public DateTime BirthDate { get; set; }
+	   public Person(DateTime birthDate)
+	   {
+		  BirthDate = birthDate;
+	   }
+	   public DateTime BirthDate { get; private set; }
 
 	   public int Age
 	   {

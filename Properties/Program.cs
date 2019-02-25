@@ -9,8 +9,8 @@ namespace Properties
 		  public DateTime BirthDate { get; set; }
 	   }
 
-        static void Main(string[] args)
-        {
-        }
+	   static void Main(string[] args)
+	   {
+	   }
     }
 }
